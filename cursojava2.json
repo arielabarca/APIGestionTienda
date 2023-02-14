@@ -1,0 +1,47 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"cursojava2"},
+{"type":"table","name":"articulos","database":"cursojava2","data":
+[
+{"id":"200010","proveedor":"1000561","cantidad":"250","descripcion":"buzo verga","talle":"XL","costo":"20","precio":"50"},
+{"id":"200011","proveedor":"1000562","cantidad":"250","descripcion":"Buzo Niño","talle":"L","costo":"123","precio":"9865"},
+{"id":"200012","proveedor":"1000563","cantidad":"123","descripcion":"Buzo Niño","talle":"XS","costo":"123","precio":"9865"},
+{"id":"200013","proveedor":"1000561","cantidad":"20","descripcion":"Buzo Niño","talle":"XXL","costo":"12312","precio":"123123"},
+{"id":"200014","proveedor":"1000565","cantidad":"20","descripcion":"Buzo Niños","talle":"M","costo":"123","precio":"12398"},
+{"id":"200015","proveedor":"1000561","cantidad":"20","descripcion":"Remera Mickey Negra","talle":"XXL","costo":"100","precio":"250"}
+]
+}
+,{"type":"table","name":"compras","database":"cursojava2","data":
+[
+{"id":"2","fecha":"2023-02-01","descripcion":"Escritorio para el Jefe","precio":"90"},
+{"id":"3","fecha":"2023-02-01","descripcion":"Silla para la Espalda","precio":"20"}
+]
+}
+,{"type":"table","name":"proveedores","database":"cursojava2","data":
+[
+{"id":"1000561","razon-social":"Crick Tunes S.R.L","telefono":"1566872226","email":"asdasd","fecha-alta":"2023-01-28","descripcion":"Venta de buzos y remeras"},
+{"id":"1000562","razon-social":"Pantatunes S.A","telefono":"46546","email":"ljasdlja","fecha-alta":"2023-01-28","descripcion":"Venta de pantalones al por mayor"},
+{"id":"1000563","razon-social":"ConTodo inc.","telefono":"5461243","email":"sadasd","fecha-alta":"2023-01-28","descripcion":"Venta de Accesorios"},
+{"id":"1000565","razon-social":"Todito S.R.L","telefono":"44870439","email":"coqui_31@icloud.com","fecha-alta":"2023-01-31","descripcion":"Buzo Niño"}
+]
+}
+,{"type":"table","name":"usuarios","database":"cursojava2","data":
+[
+{"id":"11","nombre":"coca","apellido":"cola","telefono":null,"email":"123@123.com","password":"$argon2id$v=19$m=1024,t=1,p=1$wxd77XdpGmeSpzr\/Qur99A$oOA9Sf5xVxHskjYOJ8jNQAjTIS3N8cLtbwlr++Aa8eo"},
+{"id":"12","nombre":"Carla","apellido":"Biencofiore","telefono":null,"email":"coqui_31@icloud.com","password":"$argon2id$v=19$m=1024,t=1,p=1$O\/aCmXYI40NQfsLq1Bow9g$4CA9cRXoI2kkjMIPFIAHa25WLa7KbHJISpfROmsm\/uQ"},
+{"id":"13","nombre":"Admin","apellido":"Admin","telefono":null,"email":"Admin@admin.com","password":"$argon2id$v=19$m=1024,t=1,p=1$JUk4bXct60Ist0bNaEz\/7w$qAMOjHn7\/JxJK+mlrOt4SMXKyyHcnmHBZcmfAH0FXm0"},
+{"id":"15","nombre":"Carla","apellido":"Biancofiore","telefono":null,"email":"coqui_31@icloud2.com","password":"$argon2id$v=19$m=1024,t=1,p=1$Tz0ZAabHOx3IzcKP51Hz3g$lY6yehdOI0R9pIkdFO7QdgcPwnaqdlv516ODPB6ggjs"}
+]
+}
+,{"type":"table","name":"ventas","database":"cursojava2","data":
+[
+{"nro-venta":"1","id-articulo":"200010","fecha-venta":"2023-02-01","usuario-venta":"123@123.com","descripcion":"buzo verga","talle":"XL","precio-venta":"50","nro-factura":"487000","medio-pago":"Efectivo"},
+{"nro-venta":"5","id-articulo":"200010","fecha-venta":"2023-02-01","usuario-venta":"123@123.com","descripcion":"buzo verga","talle":"XL","precio-venta":"50","nro-factura":"456532","medio-pago":"Otros"},
+{"nro-venta":"6","id-articulo":"200012","fecha-venta":"2023-02-01","usuario-venta":"123@123.com","descripcion":"Buzo Niño","talle":"XS","precio-venta":"9865","nro-factura":"456789","medio-pago":"Tarjeta Credito"},
+{"nro-venta":"7","id-articulo":"200015","fecha-venta":"2023-02-01","usuario-venta":"123@123.com","descripcion":"Remera Mickey Negra","talle":"XXL","precio-venta":"250","nro-factura":"987654","medio-pago":"Otros"},
+{"nro-venta":"8","id-articulo":"200014","fecha-venta":"2023-02-01","usuario-venta":"123@123.com","descripcion":"Buzo Niños","talle":"M","precio-venta":"12398","nro-factura":"79465","medio-pago":"Tarjeta Credito"},
+{"nro-venta":"9","id-articulo":"200015","fecha-venta":"2023-02-01","usuario-venta":"coqui_31@icloud2.com","descripcion":"Remera Mickey Negra","talle":"XXL","precio-venta":"250","nro-factura":"79465","medio-pago":"Tarjeta Debito"},
+{"nro-venta":"10","id-articulo":"200014","fecha-venta":"2023-02-14","usuario-venta":"123@123.com","descripcion":"Buzo Niños","talle":"M","precio-venta":"12398","nro-factura":"456532","medio-pago":"Otros"}
+]
+}
+]
